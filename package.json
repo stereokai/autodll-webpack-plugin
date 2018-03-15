@@ -7,6 +7,7 @@
   "repository": "https://github.com/asfktz/autodll-webpack-plugin",
   "main": "lib/index.js",
   "scripts": {
+    "postinstall": "npm build",
     "install:fixturedeps": "node ./scripts/installFixtureDeps.js",
     "lint": "eslint src specs",
     "lint:fix": "npm run lint -- --fix",
